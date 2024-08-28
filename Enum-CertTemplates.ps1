@@ -22,6 +22,10 @@ $AllTemplates = foreach ($result in $results) {
 	$templateName
 }
 
+Write-Output ""
+Write-Output "[+] Certificate Templates:"
+Write-Output ""
+
 $AllTemplates | Sort
 
 Write-Output ""
